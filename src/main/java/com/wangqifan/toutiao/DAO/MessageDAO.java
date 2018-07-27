@@ -29,7 +29,7 @@ public interface MessageDAO {
     @Select({"select count(id) from ", TABLE_NAME, " where has_read = 0 and to_id=#{userId}"})
     int getConversationTotalCount(@Param("userId") int userId, @Param("conversationId") String conversationId);
 
-    @Select({"select ", SELECT_FIELDS, " from ", TABLE_NAME, " where conversation_id=#{conversationId} order by id  limit #{offset},#{limit}"})
+    @Select({"select ", SELECT_FIELDS, " from ", TABLE_NAME, " where conversation_id=#{conversationId} order by id   limit #{offset},#{limit}"})
     List<Message> getConversationDetail(@Param("conversationId") String conversationId, @Param("offset") int offset, @Param("limit") int limit);
 
     @Select({" select count(*) from ",TABLE_NAME,"where conversation_id=#{conversationId} "})

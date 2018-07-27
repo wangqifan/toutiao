@@ -89,6 +89,7 @@ public class MessageController {
     public String addMessage(@RequestParam("fromId") int fromId,
                              @RequestParam("toId") int toId,
                              @RequestParam("content") String content) {
+        fromId=hostHolder.getUser().getId();
         Message msg = new Message();
         msg.setContent(content);
         msg.setCreatedDate(new Date());
