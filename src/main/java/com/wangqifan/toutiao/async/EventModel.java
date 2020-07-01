@@ -9,7 +9,7 @@ public class EventModel {
     private int entityId;
     private int entityType;
     private int entityOwnerId;
-    private Map<String, String> exts = new HashMap<>();
+    private Map<String, String> exts = new HashMap<String, String>();
     private EventType type;
 
 

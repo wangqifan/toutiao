@@ -19,7 +19,7 @@ import java.util.Map;
 @Service
 public class EventConsumer implements InitializingBean, ApplicationContextAware {
 
-    private Map<EventType, List<EventHandler>> config = new HashMap<>();
+    private Map<EventType, List<EventHandler>> config = new HashMap<EventType, List<EventHandler>>();
     private ApplicationContext applicationContext;
     @Autowired
     private JedisAdapter jedisAdapter;

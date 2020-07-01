@@ -62,7 +62,7 @@ public class MessageController {
     public String conversationList(Model model) {
         try {
             int localUserId = hostHolder.getUser().getId();
-            List<ViewObject> conversations = new ArrayList<>();
+            List<ViewObject> conversations = new ArrayList<ViewObject>();
             List<Message> conversationList = messageService.getConversationList(localUserId, 0, 10);
             for (Message msg : conversationList) {
                 ViewObject vo = new ViewObject();
