@@ -33,7 +33,7 @@ public class QiniuService {
     //创建上传对象
     UploadManager uploadManager = new UploadManager(cfg);
 
-    private static String QINIU_IMAGE_DOMAIN ="qctrq4pf1.bkt.clouddn.com";
+    private static String QINIU_IMAGE_DOMAIN ="http://qctrq4pf1.bkt.clouddn.com/";
 
     //简单上传，使用默认策略，只需要设置上传的空间名就可以了 
     public String getUpToken() {
@@ -56,6 +56,7 @@ public class QiniuService {
             Response res = uploadManager.put(file.getBytes(), fileName, getUpToken());
             //打印返回的信息
             if (res.isOK() && res.isJson()) {
+                System.out.println(res.toString());
                 return QINIU_IMAGE_DOMAIN + JSONObject.parseObject(res.bodyString()).get("key");
             } else {
              //   logger.error("七牛异常:" + res.bodyString());
