@@ -1,5 +1,17 @@
 # toutiao
-牛客网中级项目课  采用Thymeleaf
+  资讯分享网站
+
+#### 使用
+
+构建镜像
+~~~
+./build.sh
+~~~
+
+使用docker-compose进行本地容器编排
+~~~
+docker-compose up -d
+~~~
 
 
 页面展示
