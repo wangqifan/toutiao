@@ -8,7 +8,7 @@
 ./build.sh
 ~~~
 
-使用docker-compose进行本地容器编排
+使用docker-compose进行本地容器编排, 就能起一个包含web服务，mysql， redis的集群
 ~~~
 docker-compose up -d
 ~~~
