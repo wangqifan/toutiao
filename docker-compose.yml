@@ -8,6 +8,7 @@ services:
       - "8080:8080"
     links:
       - mysql
+      - redis
   mysql:
     image: mysql:5.7
     container_name: mysql
@@ -15,3 +16,6 @@ services:
       - "3306:3306"
     environment:
       "MYSQL_ROOT_PASSWORD" : "000000"
+  redis:
+    image: redis
+    container_name: redis
