@@ -17,17 +17,17 @@ import java.util.UUID;
 
 @Service
 public class QiniuService {
-    String ACCESS_KEY = "jt2ZPFgH2qxDQnCcxsQcopy6dWFYbJUU4bicTrSF";
-    String SECRET_KEY = "rRKzd5R3dbQgqSOkFE4bXi2foXWe03S9qN5bWdiy";
+    String ACCESS_KEY = "IrN94P4QrEz9rasZsOLdxhfKldpQXc0yA3eCPPHL";
+    String SECRET_KEY = "0sqO6ONmK8p0WRDthv2GiXREpXgCoMtWnW-qjFpX";
     //要上传的空间
-    String bucketname = "toutiao";
+    String bucketname = "wqf";
 
     //密钥配置
     Auth auth = Auth.create(ACCESS_KEY, SECRET_KEY);
     //创建上传对象
     UploadManager uploadManager = new UploadManager();
 
-    private static String QINIU_IMAGE_DOMAIN ="http://pbqjblyft.bkt.clouddn.com/";
+    private static String QINIU_IMAGE_DOMAIN ="qctrq4pf1.bkt.clouddn.com";
 
     //简单上传，使用默认策略，只需要设置上传的空间名就可以了 
     public String getUpToken() {
