@@ -1,6 +1,8 @@
 package com.wangqifan.toutiao.Service;
 
 
+import com.qiniu.storage.Configuration;
+import com.qiniu.storage.Region;
 import com.wangqifan.toutiao.util.ToutiaoUtil;
 
 import com.alibaba.fastjson.JSONObject;
@@ -22,10 +24,13 @@ public class QiniuService {
     //要上传的空间
     String bucketname = "wqf";
 
+    //构造一个带指定 Region 对象的配置类
+    Configuration cfg = new Configuration(Region.region0());
+
     //密钥配置
     Auth auth = Auth.create(ACCESS_KEY, SECRET_KEY);
     //创建上传对象
-    UploadManager uploadManager = new UploadManager();
+    UploadManager uploadManager = new UploadManager(cfg);
 
     private static String QINIU_IMAGE_DOMAIN ="qctrq4pf1.bkt.clouddn.com";
 
