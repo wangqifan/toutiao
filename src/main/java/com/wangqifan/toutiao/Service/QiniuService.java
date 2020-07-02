@@ -62,6 +62,7 @@ public class QiniuService {
             }
         } catch (QiniuException e) {
             // 请求失败时打印的异常的信息
+            e.printStackTrace();
             return null;
         }
     }
