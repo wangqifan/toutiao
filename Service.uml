@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.wangqifan.toutiao.Service.LikeService</OriginalElement>
+  <nodes>
+    <node x="0.0" y="117.0">com.wangqifan.toutiao.Service.MessageService</node>
+    <node x="1261.0" y="117.0">com.wangqifan.toutiao.Service.NewsService</node>
+    <node x="931.5" y="0.0">org.springframework.stereotype.Service</node>
+    <node x="373.0" y="128.5">com.wangqifan.toutiao.Service.UserService</node>
+    <node x="1553.0" y="151.5">com.wangqifan.toutiao.Service.QiniuService</node>
+    <node x="693.0" y="140.0">com.wangqifan.toutiao.Service.CommentService</node>
+    <node x="1031.0" y="140.0">com.wangqifan.toutiao.Service.LikeService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.wangqifan.toutiao.Service.UserService" target="org.springframework.stereotype.Service">
+      <point x="0.0" y="-63.0" />
+      <point x="523.0" y="87.0" />
+      <point x="962.75" y="87.0" />
+      <point x="-31.25" y="28.5" />
+    </edge>
+    <edge source="com.wangqifan.toutiao.Service.LikeService" target="org.springframework.stereotype.Service">
+      <point x="0.0" y="-51.5" />
+      <point x="1136.0" y="97.0" />
+      <point x="1004.4166666666666" y="97.0" />
+      <point x="10.416666666666629" y="28.5" />
+    </edge>
+    <edge source="com.wangqifan.toutiao.Service.QiniuService" target="org.springframework.stereotype.Service">
+      <point x="0.0" y="-40.0" />
+      <point x="1666.5" y="77.0" />
+      <point x="1046.0833333333335" y="77.0" />
+      <point x="52.08333333333337" y="28.5" />
+    </edge>
+    <edge source="com.wangqifan.toutiao.Service.MessageService" target="org.springframework.stereotype.Service">
+      <point x="0.0" y="-74.5" />
+      <point x="176.5" y="77.0" />
+      <point x="941.9166666666666" y="77.0" />
+      <point x="-52.08333333333337" y="28.5" />
+    </edge>
+    <edge source="com.wangqifan.toutiao.Service.CommentService" target="org.springframework.stereotype.Service">
+      <point x="0.0" y="-51.5" />
+      <point x="852.0" y="97.0" />
+      <point x="983.5833333333334" y="97.0" />
+      <point x="-10.416666666666629" y="28.5" />
+    </edge>
+    <edge source="com.wangqifan.toutiao.Service.NewsService" target="org.springframework.stereotype.Service">
+      <point x="0.0" y="-74.5" />
+      <point x="1397.0" y="87.0" />
+      <point x="1025.25" y="87.0" />
+      <point x="31.25" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8760563380281691" x="522.5" y="85.0" />
+  <SelectedNodes>
+    <node>com.wangqifan.toutiao.Service.LikeService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

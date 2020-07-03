@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.wangqifan.toutiao.DAO.CommentDAO</OriginalElement>
+  <nodes>
+    <node x="373.0" y="116.5">com.wangqifan.toutiao.DAO.NewsDAO</node>
+    <node x="723.0" y="139.5">com.wangqifan.toutiao.DAO.CommentDAO</node>
+    <node x="1013.0" y="139.5">com.wangqifan.toutiao.DAO.LoginTicketDAO</node>
+    <node x="807.0" y="0.0">org.apache.ibatis.annotations.Mapper</node>
+    <node x="1274.0" y="116.5">com.wangqifan.toutiao.DAO.UserDAO</node>
+    <node x="0.0" y="105.0">com.wangqifan.toutiao.DAO.MessageDAO</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.wangqifan.toutiao.DAO.NewsDAO" target="org.apache.ibatis.annotations.Mapper">
+      <point x="0.0" y="-119.0" />
+      <point x="538.0" y="85.0" />
+      <point x="837.6" y="85.0" />
+      <point x="-20.399999999999977" y="27.5" />
+    </edge>
+    <edge source="com.wangqifan.toutiao.DAO.MessageDAO" target="org.apache.ibatis.annotations.Mapper">
+      <point x="0.0" y="-130.5" />
+      <point x="176.5" y="75.0" />
+      <point x="817.2" y="75.0" />
+      <point x="-40.799999999999955" y="27.5" />
+    </edge>
+    <edge source="com.wangqifan.toutiao.DAO.CommentDAO" target="org.apache.ibatis.annotations.Mapper">
+      <point x="0.0" y="-96.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.wangqifan.toutiao.DAO.LoginTicketDAO" target="org.apache.ibatis.annotations.Mapper">
+      <point x="0.0" y="-96.0" />
+      <point x="1133.5" y="85.0" />
+      <point x="878.4" y="85.0" />
+      <point x="20.399999999999977" y="27.5" />
+    </edge>
+    <edge source="com.wangqifan.toutiao.DAO.UserDAO" target="org.apache.ibatis.annotations.Mapper">
+      <point x="0.0" y="-119.0" />
+      <point x="1377.0" y="75.0" />
+      <point x="898.8" y="75.0" />
+      <point x="40.799999999999955" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="376.0" y="96.5" />
+  <SelectedNodes>
+    <node>com.wangqifan.toutiao.DAO.CommentDAO</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.wangqifan.toutiao.Models.LoginTicket</OriginalElement>
+  <nodes>
+    <node x="359.5" y="0.0">org.springframework.stereotype.Component</node>
+    <node x="378.0" y="263.0">com.wangqifan.toutiao.Models.LoginTicket</node>
+    <node x="355.0" y="107.0">com.wangqifan.toutiao.Models.HostHolder</node>
+    <node x="186.0" y="0.0">com.wangqifan.toutiao.Models.User</node>
+    <node x="200.0" y="263.0">com.wangqifan.toutiao.Models.Comment</node>
+    <node x="0.0" y="0.0">com.wangqifan.toutiao.Models.News</node>
+    <node x="0.0" y="263.0">com.wangqifan.toutiao.Models.Message</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.wangqifan.toutiao.Models.HostHolder" target="org.springframework.stereotype.Component">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="165.0" y="283.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.wangqifan.toutiao.Controller.HomeController</OriginalElement>
+  <nodes>
+    <node x="0.0" y="140.0">com.wangqifan.toutiao.Controller.LoginController</node>
+    <node x="1052.0" y="151.5">com.wangqifan.toutiao.Controller.HomeController</node>
+    <node x="664.0" y="164.0">com.wangqifan.toutiao.Controller.usercontroller</node>
+    <node x="779.0" y="0.0">org.springframework.stereotype.Controller</node>
+    <node x="1280.0" y="117.0">com.wangqifan.toutiao.Controller.NewsController</node>
+    <node x="858.0" y="151.5">com.wangqifan.toutiao.Controller.LikeController</node>
+    <node x="365.99999999999994" y="140.0">com.wangqifan.toutiao.Controller.MessageController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.wangqifan.toutiao.Controller.usercontroller" target="org.springframework.stereotype.Controller">
+      <point x="0.0" y="-27.5" />
+      <point x="751.0" y="97.0" />
+      <point x="836.5" y="97.0" />
+      <point x="-11.5" y="28.5" />
+    </edge>
+    <edge source="com.wangqifan.toutiao.Controller.NewsController" target="org.springframework.stereotype.Controller">
+      <point x="5.6843418860808015E-14" y="-74.5" />
+      <point x="1430.5" y="77.0" />
+      <point x="905.5" y="77.0" />
+      <point x="57.5" y="28.5" />
+    </edge>
+    <edge source="com.wangqifan.toutiao.Controller.LikeController" target="org.springframework.stereotype.Controller">
+      <point x="0.0" y="-40.0" />
+      <point x="945.0" y="97.0" />
+      <point x="859.5" y="97.0" />
+      <point x="11.5" y="28.5" />
+    </edge>
+    <edge source="com.wangqifan.toutiao.Controller.MessageController" target="org.springframework.stereotype.Controller">
+      <point x="0.0" y="-51.5" />
+      <point x="504.99999999999994" y="87.0" />
+      <point x="813.5" y="87.0" />
+      <point x="-34.5" y="28.5" />
+    </edge>
+    <edge source="com.wangqifan.toutiao.Controller.HomeController" target="org.springframework.stereotype.Controller">
+      <point x="0.0" y="-40.0" />
+      <point x="1156.0" y="87.0" />
+      <point x="882.5" y="87.0" />
+      <point x="34.5" y="28.5" />
+    </edge>
+    <edge source="com.wangqifan.toutiao.Controller.LoginController" target="org.springframework.stereotype.Controller">
+      <point x="0.0" y="-51.5" />
+      <point x="173.0" y="77.0" />
+      <point x="790.5" y="77.0" />
+      <point x="-57.5" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7775" x="580.0" y="85.0" />
+  <SelectedNodes>
+    <node>com.wangqifan.toutiao.Controller.HomeController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
